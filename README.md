@@ -1,4 +1,4 @@
-[Home](https://elle-et-noire.github.io/my-mdx-blog/)
+[Home](https://elle-et-noire.github.io/weekly-rundemo/)
 
 ## Structure
 
