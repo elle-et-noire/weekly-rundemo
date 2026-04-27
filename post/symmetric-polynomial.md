@@ -128,17 +128,17 @@ $$HE = I_N$$
 を意味する。また$H,E$の対角成分はすべて$1$なので$\det H = \det E = 1$である。
 
 分割$\lambda = (\lambda_1,\ldots,\lambda_n)$に対して
-- $U = \{\lambda_i + n - i \mid 1 \le i \le n\}$
+- $U = (\lambda_i + n - i)_{1 \le i \le n}$
 
 	- 下の方からYoung図形の縁に沿って進んでいくことを考えると、$\lambda_i$は何回横に進んだか、$n-i$は何度縦に進んだかを表し、$\lambda_i-i+n$は$i$行目の腕を縦に進む道が全体の経路の何番目に位置するかを表す。
-- $V = \{n - i \mid 1 \le i \le n\} = \{0, 1, \dots, n-1\}$
+- $V = (n - i)_{1 \le i \le n}$
 
 を定める。このときJacobi-Trudi公式からSchur多項式は
 $$s_\lambda = \det_{1\le i,j\le n} (h_{\lambda_i-i+j}) = \det_{i,j} (H_{U_i,V_j})$$
 と表される。ところで全体集合$\{0,\ldots,N-1\}$における$U,V$の補集合は以下のようになる:
-- $V^\mathrm{c} = \{n+j-1\mid 1\le j\le N-n\}$
+- $V^\mathrm{c} = (n+j-1)_{1\le j\le N-n}$
 
-- $U^\mathrm{c} = \{n+k-1-\lambda_k^\mathrm{T}\mid 1\le k\le N-n\}$
+- $U^\mathrm{c} = (n+k-1-\lambda_k^\mathrm{T})_{1\le k\le N-n}$
 
 	- 同じく分割$\lambda$を表すYoung図形の縁を下からたどる経路において、$n-\lambda_k^\mathrm{T}$が何度縦に進んだか、$k-1$が何度横に進んだかを表し、$k$番目の足を横に進む道が全体の経路の何番目に位置するかを表す。また$U_{i+1}^\mathrm{c}-U_i^\mathrm{c} = 1-\lambda_{i+1}^\mathrm{T}+\lambda_i^\mathrm{T}\ge 1$より$U^\mathrm{c}$は狭義単調増加列である。
 
