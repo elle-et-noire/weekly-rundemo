@@ -70,6 +70,7 @@ export default function MathEnvironment(props: Props) {
       // displayAlign: 'left',
       // displayIndent: '2em',
       mtextInheritFont: true,
+      scale: 0.85,
     },
     chtml: {
       // displayAlign: 'left',
