@@ -54,7 +54,8 @@ export default function MathEnvironment(props: Props) {
         Im: '\\operatorname{Im}',
         id: '\\operatorname{id}',
         sgn: '\\operatorname{sgn}',
-        Ker: '\\operatorname{Ker}'
+        Ker: '\\operatorname{Ker}',
+        det: '\\operatorname*{det}',
       },
       physics: {
         italicdiff: true,

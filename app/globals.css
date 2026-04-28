@@ -109,6 +109,7 @@ svg {
 
 .post {
   @apply text-[#101828];
+  text-autospace: normal;
 }
 
 .post a {
